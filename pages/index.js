@@ -4,6 +4,7 @@ import { Container } from "../components/Container";
 
 // A Smart Component from Framer
 import Toggle from "https://framer.com/m/Toggle-B5iT.js@52zFaz7rN7Bt3pjtYxWH";
+import Test from "https://framer.com/m/test-YUmg.js@kK7OYG9IgoNrPcGP8YSP";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
 
       <Container>
         <Toggle />
+        <Test />
         <Tip />
       </Container>
     </>
